@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="part1">
+                <div class="name">
+                    <h1><span id="res-name"></span></h1>
+                    <h3><span id="res-designation"></span></h3>
+                </div>
+                <div class="picture" >
+                    <img id="res-img" src="" alt="profile-picture">
+                </div>
+            </div>
+            <div class="part2">
+                <div class="contact">
+                    <h3>CONTACT</h3>
+                    <div class="number ic">
+                        <div class="icon">
+                            <i class="ri-phone-fill"></i>
+                        </div>
+                        <p><span id="res-phone"></span></p>
+                    </div>
+                    <div class="gmail ic">
+                        <div class="icon">
+                            <i class="ri-mail-fill"></i>
+                        </div>
+                        <p><span id="res-email"></span></p>
+                    </div>
+                    <div class="address ic" >
+                        <div class="icon">
+                            <i class="ri-map-pin-fill"></i>
+                        </div>
+                        <p><span id="res-address"></span></p>
+                    </div>
+                    <div class="linkedin ic">
+                        <div class="icon">
+                            <i class="ri-linkedin-fill"></i>
+                        </div>
+                        <p><span id="res-linkedin"></span></p>
+                    </div>
+                    <!-- <p><i class="ri-phone-fill"></i>+92 301-1061774</p>
+                    <p><i class="ri-mail-fill"></i>zakheerali@gmai.com</p>
+                    <p><i class="ri-map-pin-fill"></i>Street#11,Haji Maal manzil ,Khadda Fishermen road Lyari, Karachi.</p>
+                    <p><i class="ri-linkedin-fill"></i>www.linkedin.com/in/zakheer-ali-57a8a1335</p> -->
+                </div>
+                <div class="profile">
+                    <h3>PROFILE</h3>
+                    <p><span id="res-profile"></span></p>
+                </div>
+            </div>
+            <div class="part3">
+                <div class="education">
+                  
+                    <h3>EDUCATION</h3>
+                    <h4><span id="res-college"></span></h4>
+                    <p><span id="res-degree"></span></p>
+                    <p><span id="res-start"></span></p>
+                    <h4><span id="res-college2"></span></h4>
+                    <p ><span id="res-degree2"></span></p>
+                    <p><span id="res-start2"></span></p>
+                </div>
+                <div class="skills">
+                    <h3>SKILLS</h3>
+                    <div class="all-skills">
+                        <div class="it-skills">
+                            <!-- <h4>IT SKILLS</h4> -->
+                        <li><span id="res-skill1"></span></li>
+                        <li><span id="res-skill2"></span></li>
+                        <li><span id="res-skill3"></span></li>
+                        <li><span id="res-skill4"></span></li>
+                        <!-- <li>Tailwind CSS</li>
+                        <li>Next js</li>
+                        <li>Digital Marketing</li>
+                        <li>MS Office</li> -->
+                        </div>
+                        <!-- <div class="soft-skills">
+                            <h4>SOFT SKILLS</h4>
+                        <li>Communication Skill</li>
+                        <li>Team building</li>
+                        <li>Time Management</li>
+                        <li>Problem Solving</li>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="part4">
+                <div class="experience">
+                    <h3>EXPERIENCE</h3>
+                    <h4><span id="res-experience"></span>
+                    </h4>
+                    <p><span id="res-exp-time"></span></p>
+                    <p><span id="job-detail"></span></p>
+                        
+                       
+                </div>
+                
+
+                <div class="it-courses">
+                <h3>COURSES</h3>
+                <h4><span id="res-institute1"></span></h4>
+                <p class="it"><span id="res-course1"></span></p>
+
+                <h4><span id="res-institute2"></span></h4>
+                <p class="it"><span id="res-course2"></span></p>
+                 <div class="language" style="border-top: 2px solid rgb(138, 130, 130); padding-top: 1.5vw;">
+                    <h3>LANGUAGE</h3>
+                    <p><span id="language1"></span></p>
+                    <p><span id="language2"></span></p>
+                    <!-- <p>Sindhi</p> -->
+                <div class="buttons">
+                
+                <button id="print-btn">Print Resume</button>
+                <button id="edit-btn">Edit Resume</button>
+                <a id="anchor-tag" href=""><button id="share-btn">Shareable Link Button</button></a>
+                <button id="copy-btn">Copy Link Address</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="resume.js"></script>
+</body>
+</html>

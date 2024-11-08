@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-color: rgb(221, 216, 206);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.container {
+    color: black;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+    padding: 3vw 3vw;
+    /* height: 1800px; */
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+form label{
+    font-size: 25px;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 2vw;
+    width: 100%;
+    /* height: 30vh; */
+    border-bottom: 2px solid rgb(138, 130, 130);
+    /* background-color: brown; */
+}
+
+.part1 .name {
+    padding: 1vw 2vw 2vw 2vw;
+    height: 100%;
+    width: 70%;
+    /* background-color: white; */
+}
+
+.part1 .name h1 {
+    color: black;
+    opacity: 0.8;
+    font-weight: normal;
+    font-size: 7vw;
+}
+
+.part1 .name h3 {
+    color: black;
+    opacity: 0.5;
+    font-weight: lighter;
+    font-size: 2vw;
+}
+
+.part1 .picture {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    /* background-color: yellow;
+    background-image: url("/picture.jpeg");
+    background-size: cover;
+    background-position: top; */
+}
+.picture img{
+    object-fit:cover;
+    object-position: top;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    
+}
+
+.part2 {
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding: 2vw 2vw;
+    width: 100%;
+    /* height: 50vh; */
+    border-bottom: 2px solid rgb(138, 130, 130);
+    /* background-color: brown; */
+}
+
+.part2 h3 {
+    padding-bottom: 1.5vw;
+}
+
+.part2 .contact {
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(138, 130, 130)
+        /* gap: 0.5vw; */
+        /* background-color: cadetblue; */
+}
+
+.part2 .contact h3 {
+    font-size: 2vw;
+}
+
+/* .part2 .icon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.part2 .icon i {
+    color: black;
+    font-size: 17px;
+}
+
+.part2 .number p {
+    color: black;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.part2 .gmail p {
+    color: black;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.part2 .address p {
+    color: black;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.part2 .linkedin p {
+    color: black;
+    opacity: 0.6;
+    font-size: 17px;
+}
+
+.part2 .number {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5vw;
+    gap: 2vw;
+}
+
+.part2 .gmail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5vw;
+    gap: 2vw;
+}
+
+.part2 .address {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 0.5vw;
+    gap: 2vw;
+}
+
+.part2 .linkedin {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    padding-bottom: 1vw;
+}
+
+.part2 .profile {
+    padding: 2vw 2vw;
+    width: 60%;
+    height: 100%;
+    /* background-color: rgb(160, 95, 125); */
+}
+
+.part2 .profile h3 {
+    font-size: 2vw;
+}
+
+.part2 .profile p {
+    font-size: 17px;
+    line-height: 23px;
+    color: black;
+    opacity: 0.6;
+}
+
+.part3 {
+    gap: 3vw;
+    display: flex;
+    padding: 2vw 2vw;
+    width: 100%;
+    /* height: 60vh; */
+    border-bottom: 2px solid rgb(138, 130, 130);
+    /* background-color: blue; */
+}
+
+.part3 .skills {
+    padding: 2vw;
+    width: 60%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.part3 .skills .all-skills {
+    display: flex;
+    gap: 2vw;
+}
+
+.part3 .skills .all-skills .soft-skills {
+    align-self: flex-start;
+}
+
+.part3 .skills h3 {
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+.part3 .skills h4 {
+    color: black;
+    opacity: 0.8;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.part3 .skills li {
+    margin-top: 0.3vw;
+    font-size: 17px;
+    line-height: 23px;
+    color: black;
+    opacity: 0.6;
+}
+
+.part3 .education {
+    border-right: 2px solid rgb(138, 130, 130);
+    padding: 2vw 2vw;
+    width: 40%;
+    height: 100%;
+    /* background-color: brown; */
+    /* border-bottom: 2px solid  rgb(138, 130, 130); */
+}
+
+.part3 .education h3 {
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+.part3 .education h4 {
+    color: black;
+    opacity: 0.8;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.part3 .education p {
+    margin-bottom: 1vw;
+    color: black;
+    opacity: 0.6;
+    font-size: 18px;
+
+}
+
+.part4 {
+    gap: 3vw;
+    display: flex;
+    padding: 2vw 2vw;
+    width: 100%;
+    /* height: 65vh; */
+    /* background-color: chocolate; */
+    border-bottom: 2px solid rgb(138, 130, 130);
+
+}
+
+.part4 .experience {
+    border-right: 2px solid rgb(138, 130, 130);
+    padding: 2vw 2vw;
+    width: 40%;
+    height: 100%;
+    /* background-color: cornflowerblue; */
+    /* background-color: brown; */
+    /* border-bottom: 2px solid  rgb(138, 130, 130); */
+}
+
+.part4 .experience h3 {
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+.part4 .experience h4 {
+    color: black;
+    opacity: 0.8;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.part4 .experience p {
+    margin-bottom: 1vw;
+    color: black;
+    opacity: 0.6;
+    font-size: 16px;
+
+}
+
+.part4 .it-courses {
+    width: 60%;
+    height: 100%;
+    padding: 2vw 2vw;
+    padding-bottom: 2vw;
+
+    /* background-color: blanchedalmond; */
+}
+
+.part4 .it-courses h3 {
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+
+.part4 .it-courses h4 {
+    color: black;
+    opacity: 0.8;
+    font-size: 1.4vw;
+    margin-bottom: 1vw;
+}
+
+.part4 .it-courses p {
+    margin-bottom: 1vw;
+    color: black;
+    opacity: 0.6;
+    font-size: 18px;
+
+}
+
+button {
+    cursor: pointer;
+    padding: 0.3vw;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 1vw;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:600px) {
+    .buttons{
+        flex-direction: column;
+        width: 100%;
+    }
+    .main {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container .part1 {
+        flex-direction: column;
+    }
+
+    .part1 .name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .part1 .name h1 {
+        font-size: 12vw;
+    }
+
+    .part1 .name h3 {
+        font-size: 6vw;
+    }
+
+    .part2 {
+        flex-direction: column;
+    }
+
+    .part2 .contact {
+        padding: 4vw;
+        width: 100%;
+        border-bottom: 2px solid rgb(138, 130, 130);
+        border-right: none;
+    }
+
+    .part2 .contact h3 {
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .part2 .contact .number p {
+        font-size: 5vw;
+    }
+
+    .part2 .contact .gmail p {
+        font-size: 5vw;
+    }
+
+    .part2 .contact .address p {
+        font-size: 5vw;
+    }
+
+    .part2 .contact .linkedin p {
+        font-size: 5vw;
+    }
+
+    .part2 .contact .number i {
+        font-size: 4.5vw;
+    }
+
+    .part2 .contact .gmail i {
+        font-size: 4.5vw;
+    }
+
+    .part2 .contact .address i {
+        font-size: 4.5vw;
+    }
+
+    .part2 .contact .linkedin i {
+        font-size: 4.5vw;
+    }
+
+    .part2 .contact .ic {
+        gap: 5vw;
+        align-items: center;
+    }
+
+    .part2 .profile {
+        width: 100%;
+    }
+
+    .part2 .profile h3 {
+        text-align: center;
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+
+    .part2 .profile p {
+        font-size: 5vw;
+        text-align: justify;
+        line-height: 6vw;
+    }
+
+    .part3 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .part3 .education {
+        text-align: center;
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid rgb(138, 130, 130);
+    }
+
+    .part3 .education h3 {
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .part3 .education h4 {
+        font-size: 5vw;
+    }
+
+    .part3 .education p {
+        font-size: 5vw;
+    }
+
+    .part3 .skills {
+        width: 100%;
+    }
+    .part3 .skills h3{
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+    .skills .all-skills {
+        align-items: center;
+        width: 100%;
+        gap: 5vw;
+    }
+    .skills .all-skills .it-skills h4{
+         font-size: 6vw;
+    }
+    .skills .all-skills .it-skills li{
+        font-size: 4.5vw;
+        line-height: 7vw;
+   }
+    .skills .all-skills .soft-skills h4{
+        font-size: 6vw;
+   }
+   .skills .all-skills .soft-skills li{
+    font-size: 4.5vw;
+    line-height: 7vw;
+   }
+   .part4{
+    width: 100%;
+    flex-direction: column;
+   }
+   .part4 .experience{
+    text-align: center;
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid rgb(138, 130, 130);
+   }
+   .part4 .experience h3{
+    font-size: 7vw;
+    margin-bottom: 3vw;
+   }
+   .part4 .experience h4{
+    font-size: 6vw;
+    }
+    .part4 .experience p{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .part4 .it-courses{
+        text-align: center;
+        width: 100%;
+    }
+    .part4 .it-courses h3{
+        font-size: 7vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+    .part4 .it-courses h4{
+        text-align: center;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+        font-size: 6vw;
+    }
+    .part4 .it-courses .it{
+        margin-bottom: 4vw;
+        margin-top: 2vw;
+    }
+    .part4 .it-courses p{
+        text-align: center;
+        font-size: 5.5vw;
+    }
+    button{
+        margin-top: 5vw;
+        font-size: 4vw;
+        text-transform: uppercase;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
+@media (max-width:900px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        padding: 0;
+    }
+}
+@media (max-width:1200px) {
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        padding: 0;
+    }
+}
